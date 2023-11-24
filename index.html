@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .myPDF{
-            min-height: 1000px;
-          width: 100%;
-        }
-    </style>
+    <title>PDF Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
-    <iframe class="myPDF" src="Home_compressed.pdf" frameborder="0" nocontrols></iframe>
+    <div class="pdf-viewer">
+        <iframe id="pdfFrame" src="./ASSETS/Home_compressed_compressed.pdf" frameborder="0"></iframe>
+    </div>
+    <div class="navigation">
+        <button id="prevPdf"><i class="fa-solid fa-chevron-left fa-beat"></i> </button>
+        <button id="nextPdf"><i class="fa-solid fa-chevron-right fa-beat"></i> </button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
