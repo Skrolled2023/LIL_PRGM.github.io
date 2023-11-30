@@ -1,6 +1,6 @@
 
 let currentPdfIndex = 1;
-const pdfFiles = ['./ASSETS/ASSETS/Home_compressed_compressed.pdf', './ASSETS/About_compressed.pdf', './ASSETS/Curriculum_compressed.pdf', './ASSETS/Contact Us.pdf'];
+const pdfFiles = ['./ASSETS/Home_compressed_compressed.pdf', './ASSETS/About_compressed.pdf', './ASSETS/Curriculum_compressed.pdf', './ASSETS/Contact Us.pdf'];
 
 function updatePdf(direction) {
     if (direction === 'next') {
